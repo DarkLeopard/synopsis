@@ -5,6 +5,7 @@ import {WINDOW_PROVIDER} from "../shared/providers/window.provider";
 import {forkJoin, Observable} from "rxjs";
 import {BrowserModule} from "@angular/platform-browser";
 import {BrowserAnimationsModule} from "@angular/platform-browser/animations";
+import {ProjectTranslateModule} from "./project-translate/project-translate.module";
 
 function appInit(store: Store): () => Observable<unknown> | Promise<unknown> {
   return () =>
@@ -19,6 +20,7 @@ function appInit(store: Store): () => Observable<unknown> | Promise<unknown> {
     CommonModule,
     BrowserModule,
     BrowserAnimationsModule,
+    ProjectTranslateModule,
   ]
 })
 export class CoreModule {

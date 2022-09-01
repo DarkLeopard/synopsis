@@ -20,7 +20,12 @@
     "@angular/platform-browser": "^14.0.0",
     "@angular/platform-browser-dynamic": "^14.0.0",
     "@angular/router": "^14.0.0",
+    "@ngx-translate/core": "^14.0.0",
+    "@ngx-translate/http-loader": "^7.0.0",
     "@ngxs/store": "^3.7.5",
+    "@types/file-saver": "^2.0.5",
+    "file-saver": "^2.0.5",
+    "localforage": "^1.10.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"
